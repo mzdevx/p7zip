@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 MZDevX
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Software Notice
+
+**send2trash**
+- Website: https://github.com/arsenetar/send2trash
+- License: BSD 3-Clause License
+
+This software uses 7-Zip as an external dependency:
+
+**7-Zip**
+- Website: https://www.7-zip.org/
+- License: GNU LGPL + unRAR restriction
+- Copyright (c) 1999-2024 Igor Pavlov
+
+p7zip does NOT include or distribute 7-Zip binaries. Users must download and 
+install 7-Zip separately from the official website. The use of 7-Zip is subject 
+to its own license terms, available at: https://www.7-zip.org/license.txt
+
+p7zip merely provides a Python wrapper interface to interact with the 7-Zip 
+command-line tool when it is properly installed and configured by the user.
